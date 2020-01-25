@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="App.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="E:/SelniumFramework(failed)">
+    <classes>
+      <class name="Homepage">
+        <methods>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- Homepage -->
+    </classes>
+  </test> <!-- E:/SelniumFramework(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

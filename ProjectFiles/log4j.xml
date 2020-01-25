@@ -1,0 +1,29 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<Configuration status="WARN">-->
+<!--    <Properties>-->
+<!--        <Property name="basePath">./logs</Property>-->
+<!--    </Properties>-->
+
+<!--    <Appenders>-->
+<!--        <RollingFile name="File" fileName="${basePath}/prints.log" filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">-->
+<!--            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>-->
+<!--            <SizeBasedTriggeringPolicy size="500" />-->
+<!--        </RollingFile>-->
+<!--&lt;!&ndash;        <Console name="Console" target="SYSTEM_OUT">&ndash;&gt;-->
+<!--        &lt;!&ndash;            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>&ndash;&gt;-->
+<!--        &lt;!&ndash;        </Console>&ndash;&gt;-->
+<!--        <File name="MyFile" fileName="logs/app.log">-->
+<!--            <PatternLayout>-->
+<!--                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>-->
+<!--            </PatternLayout>-->
+<!--        </File>-->
+<!--        <Async name="Async">-->
+<!--            <AppenderRef ref="MyFile"/>-->
+<!--        </Async>-->
+<!--    </Appenders>-->
+<!--    <Loggers>-->
+<!--        <Root level="error">-->
+<!--            <AppenderRef ref="File"/>-->
+<!--        </Root>-->
+<!--    </Loggers>-->
+<!--</Configuration>-->
